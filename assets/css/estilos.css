@@ -5,7 +5,7 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/yo33.png");
+  /*background-image: url("../img/yo33.png");*/
   background-size: 90%;
   background-repeat: no-repeat;
   background-size:contain;
@@ -13,6 +13,8 @@ body {
   margin-left: 30px;
   margin-top: 5px;
 }
+
+
 
 /* Mis trabajos */
 
@@ -41,3 +43,30 @@ body {
   .list-group{
     list-style-type:none;
   }
+
+ .perfil-presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ } 
+
+.img-presentation img {
+  display: block;
+  width: 400px;
+  max-width: 400px;
+  object-fit: cover;
+  height: auto;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 2px solid #c4c4c4;
+
+}
+
+  .title-presentation h1 {
+    color:#373a3c;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: left;
+    padding: 50px;
+  }
+
